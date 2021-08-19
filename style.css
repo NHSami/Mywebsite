@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'popins', serif;
+	box-sizing: border-box;
+}
+.container{
+	width: 100%;
+	min-height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/bg.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 0 8%;
+}
+.nav{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 20px 0;
+
+}
+.nav-logo {
+    width: 155px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.nav-logo img {
+    width: 100%;
+    display: inline;
+}
+
+.nav-links {
+	margin-top: 32px;
+	display: inline-flex;
+	margin-right: 36px;
+	float: right;
+}
+.nav-links .btn{
+    background: #fff;
+    color: #000;
+    padding: 8px 30px;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+.nav-links a {
+    color: #fff;
+    margin-left: 30px;
+    text-decoration: none;
+    font-family: system-ui;
+}
+.content{
+	padding-top: 200px;
+	color: white;
+}
+.content h1 {
+    font-size: 60px;
+}
+.serch-box{
+	background: #fff;
+	width: fit-content;
+	display: flex;
+	align-items: center;
+	padding: 18px 20px;
+	border-radius: 5px;
+	margin: 20px 0;
+}
+.serch-box input{
+	background: transparent;
+	width: 600px;
+	border: 0;
+	outline: none;
+}
+.serch-box button{
+	background: transparent;
+	border: 0;
+	cursor: pointer;
+}
+.serch-box button img{
+	width: 22px;
+
+}
+.nav-links .btn:hover{
+	background: #ffffff30;
+	color: #fff;
+}
